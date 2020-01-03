@@ -23,7 +23,7 @@ namespace BogusApp
             order.Dump();
 
             Console.ReadLine();
-            var fruit = new[] { "apple", "banana", "orange", "strawberry", "kiwi" };
+            var fruit = new[] { "apple", "banana", "orange", "strawberry", "kiwi", "grapefruit"  };
 
             var testOrders = new Faker<Order>()
                 //Ensure all properties have rules. By default, StrictMode is false
